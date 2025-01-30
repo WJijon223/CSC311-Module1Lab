@@ -1,14 +1,14 @@
 package org.example;
 
 public class Vehicle {
-    private int numOfWheels;
     private String color;
+    private int numOfWheels;
     private float engineSize;
     private String fuelType;
 
-    Vehicle(int numOfWheels, String color, float engineSize, String fuelType) {
-        this.numOfWheels = numOfWheels;
+    Vehicle(String color, int numOfWheels, float engineSize, String fuelType) {
         this.color = color;
+        this.numOfWheels = numOfWheels;
         this.engineSize = engineSize;
         this.fuelType = fuelType;
     }
